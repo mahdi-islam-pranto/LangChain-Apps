@@ -1,0 +1,125 @@
+With the commencement of i-HelpBD in 2014, it has taken an ultimate challenge with the status quo as the world of technology is being changed more rapidly than any other area. i-HelpBD is a fast-growing consultancy firm specializing in Call Center Operations, Software Development, and Business Process Outsourcing. Since its very inception, i-HelpBD’s state-of-the-art Contact Center has been in continuous operation. It possesses the art of integrating skilled human resources with cutting- age technology. Based in Dhaka, Bangladesh, i-HelpBD strives to shake up the industry by leveraging emerging opportunities in the business. Over the past years, the Company has developed the capabilities and gained the experience necessary to stand out both in the local and global markets. Maintaining the competitive advantages over the competitive factors of the competitors of the same industry, it has established a sustainable development of its business toward the vision fulfilling its missions.
+
+vision
+Vision
+To be a global force in innovative solutions, quality excellence and redefine creative thoughts. We are able to offer an extremely wide and deep technical skill-set that rivals (and often surpasses) many larger agencies.
+
+Mission
+To offer excellent service in each of our professional disciplines, in accordance with statutory practices, codes of conduct and integrity, thereby developing our team and providing a leading platform from which to service the built environment and in particular, our valued Clients.
+
+mission
+What is i-HelpBD?
+i-HelpBD was built on the principles of hard work, integrity and a strong desire to succeed – values which remain with us today. We use our own assets, service logistics, and custom developed software & manpower resources to serve our customers. Therefore, customers can expect to receive a consistent, high quality and complete experience every time.
+
+
+Our Solutions
+Call Center Software Solution
+Our call center solution manages a company's customer communication through various channels like chatting, SMS, and voice. The software provides a comprehensive set of tools and features such as automated call routing, IVR, call recording, call monitoring, call analytics, and real-time reporting.
+
+
+iHelpBD provides a comprehensive customer service solution that encompasses ACD, Queue Management, IVR Designer, CTI, CRM, reporting, voice logging, graphical analytics, quality monitoring, social media and chat support , email and SMS integration, pre-built CRM connectors, ticketing and helpdesk features, dialer, call back management, DNS and exclusion settings, leads management, multiple campaign management, scripting and voice broadcast capabilities. Our diverse client base spans various sectors including rideshare, e-commerce, healthcare, logistics, banking & finance, real estate, government, and more.
+
+Advanced Routing
+automatic call distributor
+Automatic Call Distributor
+(ACD) The main structure of our call center software is Automatic Call Distributor. It's a telephony system to answer incoming calls and route them to specific agents or departments that works with Computer Telephony Integration (CTI) system and Interactive Voice Response (IVR) system.
+
+Interective voice response system
+Interective Voice Response System
+A telephony menu system that allows to see the identification, segmentation and routing of callers to the most appropriate agents within team is Interactive Voice Response (IVR). To create more effective professional customer experience and efficient workforce, we need help of IVR very much .
+
+Skills-Based-Routing
+Skills Based Routing
+To ensure that each call is answered by the most appropriate call center agent Skills-based routing is needed. It easily creates rules for call assignment and then makes skills-based routing let to take care of the rest.
+
+Forword-To-Phone
+Forword To Phone
+With this feature, you can forward phone calls from anywhere in the world to a cell phone, telephone or computer. The configuration of this call center software feature can be performed in seconds and can be changed as needed to your business needs.
+
+Ring-Groups
+Ring Groups
+Optimization of call routing and distributionis performed by Ring groups. You can apply unique tags to specific agents and phone numbers with ring groups to ensure that callers are routed to the most appropriate agents. Improvement of your team’s productivity and effectiveness can be significantly performed by ring groups.
+
+No-Answer-Call-Forwarding
+No Answer Call Forwarding
+To ensure that your customers are taken care of even if all of your agents are busy no answer call forwarding feature is used. During business hours when your agents are offline this feature automatically routes phone calls which refers to a designated overflow number. With this feature, you can be assured that you will not disappoint your customers.
+
+Intelligent-Reconnect
+Intelligent Reconnect
+While disconnected in time of speaking with an agent, Intelligent Reconnect can automatically route the customer back to the agent who picked up the initial call. Even the caller will get placed at the front of the queue to minimize wait time when that agent is no longer available.
+
+Make and Receive Calls
+Call-Control
+Call Control:
+Provides a professional experience with call center software call control features like hold, mute, blind and warm transfers and call conferencing.
+
+Call-Transfer-When-Not-Online
+Call Transfer When Not Online
+Transfer call from one agent to another agent when the call is not received and or the original agent is not online
+
+No-Answer-Call-Forwarding
+Call Forward on No Answer
+Call can be transferred to another agent, if there is no answer on the agent for a specified time.
+
+Call-Routing-and-Queuing
+Call Routing and Queuing
+Route the call to special skilled priority agents and route call to different queue when required.
+
+Call-Forward-on-Busy
+Call Forward on Busy
+Call can be transferred to another user, if agent is busy.
+
+Call-Logs
+Call Detail Records - Call Logs
+Securely view, print, search, and file all incoming and outgoing calling records, by user number or by name.
+
+Caller-ID
+Caller ID
+Select the phone number to send out as your caller ID.
+
+Unlimited-Concurrent-Calls
+Unlimited Concurrent Calls
+Voice Mail Management System - Be alerted to and/or listen to voicemail in different ways.
+
+Personalized-Greetings
+Personalized Greetings
+To ensure that each interaction with your company is personalized and more professional with custom greetings, messages and prompts.
+
+Business-Hours
+Business Hours
+Shortly maintain business hours and associated call routing features to suit your evolving business needs.
+
+Agent-To-Agent-Calling
+Agent To Agent Calling
+Build a better relationship within your team with one-click dialing to iContact users on the same company account.
+
+Monitoring and Reporting
+Call-Monitoring
+Call Monitoring:
+With iContact, you can monitor your agents’ calls to gain valuable insight into the needs of your customers and make more informed business decisions.
+
+Call-Barging
+Call Barging
+Software that allows us to listen the live calls without leting know the both end users is call barging. Also allows us to burge into the call to speak with both ends.
+
+Historical-Reporting
+Historical Reporting
+Historical reporting is the feature through which we can display our call center data from any specified time. With this feature, we can show call volume, service level, handle time, abandonment time, wait time, response time and more.
+
+iContact-Live
+iContact Live
+Route the call to special skilled priority agents and route call to different queue when required.
+
+Agent-Reporting
+Agent Reporting
+Agent reporting dashboard gives you opportunity to closely monitor performance of the agent and team. This feature allows you to recognize good agents in order to optimize your team’s performance.
+
+Custom-Reporting
+Custom Reporting
+To create custom reports by filtering your data like phone number, agent, department and timeframe, this features helps you. This also allows to identify a better sense of your team’s performance. This feature makes you to analyze the data that matter most to you and your team so you can make decisions that makes significant results.
+
+Prebuilt-Reports
+Prebuilt Reports
+We have designed an effective dashboard with continuous analyzing of the performance of your team. This features also gives you to access over a dozen prebuilt reports.
+
+
