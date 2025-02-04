@@ -1,3 +1,4 @@
+# creating vector database from txt file
 import os
 from langchain_community.document_loaders import TextLoader
 from langchain.text_splitter import CharacterTextSplitter
@@ -33,15 +34,30 @@ if not os.path.exists(persistent_directory):
     text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=50)
     document_chunks = text_splitter.split_documents(document)
 
-    # Display information about the split documents
-    print(f"Document split into {len(document_chunks)} chunks.")
-    print(f"First chunk: {document_chunks[0]}")
-    print(f"2nd chunk: {document_chunks[1]}")
 
+    # Display information about the split documents
+    print(f"\n ---- Document split into {len(document_chunks)} chunks.----")
+    print(f"\n ---- First chunk: {document_chunks[0]} ----")
+    print(f"\n ---- 2nd chunk: {document_chunks[1]} ----")
+
+    # Create Embeddings for the document chunks
+    
+    print("\n--- Creating embeddings ---")
+    embedding_model = OpenAIEmbeddings(
+        model="text-embedding-3-small"
+    )  # Update to a valid embedding model if needed
+    print("\n--- Finished creating embeddings ---")
+
+    # Create the vector store and persist it automatically
+    print("\n--- Creating vector store ---")
+    chroma = Chroma.from_documents(
+        document_chunks,
+        # embeddings,
+        embedding_model,
+        persist_directory=persistent_directory
+    )
+
+    print("\n--- Finished creating vector store ---")
 
 else:
     print("Persistent directory & vector Storage alredy exists.")
-
-
-
-
