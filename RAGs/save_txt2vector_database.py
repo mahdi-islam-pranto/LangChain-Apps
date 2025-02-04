@@ -34,7 +34,6 @@ if not os.path.exists(persistent_directory):
     text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=50)
     document_chunks = text_splitter.split_documents(document)
 
-
     # Display information about the split documents
     print(f"\n ---- Document split into {len(document_chunks)} chunks.----")
     print(f"\n ---- First chunk: {document_chunks[0]} ----")
