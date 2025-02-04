@@ -39,8 +39,7 @@ if not os.path.exists(persistent_directory):
     print(f"\n ---- First chunk: {document_chunks[0]} ----")
     print(f"\n ---- 2nd chunk: {document_chunks[1]} ----")
 
-    # Create Embeddings for the document chunks
-    
+    # Create Embeddings for the document chunks    
     print("\n--- Creating embeddings ---")
     embedding_model = OpenAIEmbeddings(
         model="text-embedding-3-small"
