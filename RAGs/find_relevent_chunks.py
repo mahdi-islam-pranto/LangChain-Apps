@@ -35,7 +35,7 @@ relevennt_chunks = retriver.invoke(user_query)
 
 # Display the relevant results with metadata
 print("\n--- Relevant Documents ---")
-print(relevennt_chunks[0].page_content, "\n")
+print("chunk:1" +relevennt_chunks[0].page_content, "\n")
 print("chunk:2" +relevennt_chunks[1].page_content, "\n")
 
 
@@ -54,7 +54,4 @@ response = llm.invoke(modified_prompt)
 
 print("\n--- Answer ---")
 print(response.content)
-
-
-
 
