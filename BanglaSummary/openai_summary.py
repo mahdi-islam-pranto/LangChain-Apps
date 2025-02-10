@@ -34,6 +34,8 @@ llm = ChatOpenAI(
 )
 
 format_chat_template = chat_template.format_messages()
+print(f'full formated prompt: {format_chat_template}')
+
 
 print("generating the summary...")
 # generate the answer
@@ -43,3 +45,4 @@ print(response.content)
 # save the response to a file with UTF-8 encoding
 with open("SummaryAIresponse.txt", "w", encoding="utf-8") as f:
     f.write(response.content)
+    
