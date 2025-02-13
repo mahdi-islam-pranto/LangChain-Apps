@@ -30,7 +30,7 @@ chat_template = ChatPromptTemplate([
 
 # create the chat model
 llm = ChatOpenAI(
-    model="gpt-4",
+    model="gpt-4o",
 )
 
 format_chat_template = chat_template.format_messages()
@@ -43,6 +43,5 @@ response = llm.invoke(format_chat_template)
 print("\n--- Answer ---")
 print(response.content)
 # save the response to a file with UTF-8 encoding
-with open("SummaryAIresponse.txt", "w", encoding="utf-8") as f:
+with open("SummaryAIresponse1.txt", "w", encoding="utf-8") as f:
     f.write(response.content)
-    
