@@ -52,3 +52,5 @@ print(f"Phone Model: {response.phone_model}")
 print("\nCons:")
 for con in response.cons:
     print(f"- {con}")
+
+

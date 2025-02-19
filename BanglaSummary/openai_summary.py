@@ -28,6 +28,7 @@ chat_template = ChatPromptTemplate([
     HumanMessage(main_text_for_summary)
 ])
 
+
 # create the chat model
 llm = ChatOpenAI(
     model="gpt-4o",
