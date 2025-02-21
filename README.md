@@ -4,3 +4,4 @@
 ## 2. RAG applications with vector database
 ## 3. Chains
 ## 4. Ollama Implementation
+## 5. Huggingface models
