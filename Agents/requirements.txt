@@ -6,3 +6,5 @@ langchain-community
 pydantic
 langchain-openai
 langchain_huggingface
+duckduckgo-search
+wikipedia

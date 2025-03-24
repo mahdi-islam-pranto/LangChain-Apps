@@ -6,6 +6,7 @@ from langchain.output_parsers import PydanticOutputParser
 from langchain.agents import create_tool_calling_agent, AgentExecutor
 from dotenv import load_dotenv
 from langchain_huggingface import HuggingFaceEndpoint, ChatHuggingFace
+from tools import search_tool, wiki_tool
 
 load_dotenv()
 
@@ -34,7 +35,7 @@ prompt_template = ChatPromptTemplate.from_messages(
 
 
 # Create a ChatOpenAI model (OpenAI GPT-4o-mini)
-llm_model = ChatOpenAI(model="gpt-4o-mini")
+llm_model_openai = ChatOpenAI(model="gpt-4o-mini")
 
 # Setup open source LLM (Gemma-3 with HuggingFace)
 HF_TOKEN=os.environ.get("HF_TOKEN")
@@ -52,16 +53,20 @@ chat_model_llm =  ChatHuggingFace(llm = open_llm_model)
 
 # Create the agent
 agent = create_tool_calling_agent(
-    llm=chat_model_llm, 
-    tools=[], 
+    llm=llm_model_openai, 
+    tools=[search_tool,wiki_tool], 
     prompt=prompt_template
     )
 
 # Create the executor
-agent_executor = AgentExecutor(agent=agent, tools=[], verbose=True)
+agent_executor = AgentExecutor(agent=agent, tools=[search_tool,wiki_tool], verbose=True)
 
+
+# take user input
+user_query = input("Write Query Here: ")
 # Invoke the agent
-raw_response = agent_executor.invoke({"user_query": "What is the impact of climate change in Bangladesh?"})
+# raw_response = agent_executor.invoke({"user_query": "tell me about very deep sea creatures?"})
+raw_response = agent_executor.invoke({"user_query": user_query})
 print(raw_response)
 
 # structured output
@@ -70,3 +75,5 @@ try:
     print(f"Structured Output Topic: {structured_output.topic}")
 except Exception as e:
     print(f"Failed to parse structured output. Error: {e} \n Output: {structured_output}")
+
+
