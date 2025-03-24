@@ -6,7 +6,7 @@ from langchain.output_parsers import PydanticOutputParser
 from langchain.agents import create_tool_calling_agent, AgentExecutor
 from dotenv import load_dotenv
 from langchain_huggingface import HuggingFaceEndpoint, ChatHuggingFace
-from tools import search_tool, wiki_tool
+from tools import search_tool, wiki_tool, save_txt_tool
 
 load_dotenv()
 
@@ -54,12 +54,12 @@ chat_model_llm =  ChatHuggingFace(llm = open_llm_model)
 # Create the agent
 agent = create_tool_calling_agent(
     llm=llm_model_openai, 
-    tools=[search_tool,wiki_tool], 
+    tools=[search_tool,wiki_tool,save_txt_tool], 
     prompt=prompt_template
     )
 
 # Create the executor
-agent_executor = AgentExecutor(agent=agent, tools=[search_tool,wiki_tool], verbose=True)
+agent_executor = AgentExecutor(agent=agent, tools=[search_tool,wiki_tool,save_txt_tool], verbose=True)
 
 
 # take user input
